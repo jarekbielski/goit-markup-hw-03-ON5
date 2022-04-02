@@ -19,7 +19,7 @@ body {
 /* ---HEADER--- */
 
 .navigation_logo {
-    font-family: 'Raleway';
+    font-family: var(--secondary-font);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -90,8 +90,6 @@ body {
 }
 
 .main-header {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.363;
@@ -103,3 +101,30 @@ body {
 }
 
 /* ---END-HERO--- */
+
+/*---DISCRIPTION--- */
+
+.discription-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.discription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*---END-DISCRIPTION--- */
+
+
+/*---ABOUT--- */
+
+/*---END-ABOUT--- */
