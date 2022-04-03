@@ -9,7 +9,6 @@ body {
 }
 
 /* ---COMPONENTS--- */
-
 .main-header {
     font-weight: 700;
     font-size: 36px;
@@ -18,8 +17,6 @@ body {
     letter-spacing: 0.03em;
     color: #212121;
 }
-
-
 /* ---END-COMPONENTS--- */
 
 
@@ -27,7 +24,6 @@ body {
 
 
 /* ---HEADER--- */
-
 .navigation_logo {
     font-family: var(--secondary-font);
     font-style: normal;
@@ -77,12 +73,9 @@ body {
 .adress-phone-number:focus {
     color: var(--main-color)
 }
-
-
 /* ---END-HEADER--- */
 
 /* ---HERO--- */
-
 .modal-btn {
     font-weight: 700;
     font-size: 16px;
@@ -110,7 +103,6 @@ body {
 /* ---END-HERO--- */
 
 /*---DISCRIPTION--- */
-
 .discription-title {
     font-weight: 700;
     font-size: 14px;
@@ -135,6 +127,7 @@ body {
 
 /*---END-ABOUT--- */
 
+
 /*---TEAM--- */
 .team-list-name {
     font-weight: 500;
@@ -153,5 +146,15 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
-
 /*---END-TEAM--- */
+
+
+/*---FOOTER--- */
+.adress-street {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+/*---END-FOOTER--- */
