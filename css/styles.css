@@ -83,10 +83,12 @@ img {
     letter-spacing: 0.03em;
     color: var(--main-color);
     margin-right: 93px;
+    padding: 24px;
 }
 
 .navigation-list-item:not(:last-child) {
     margin-right: 46px;
+    padding: 32px;
 }
 
 
@@ -152,7 +154,7 @@ img {
 .header .adress {
     margin-left: auto;
     margin-right: 41px;
-    
+
 }
 
 .adress-phone-number {
@@ -161,7 +163,7 @@ img {
     line-height: 1;
     letter-spacing: 0.02em;
     color: #757575;
-   
+
 }
 
 .adress-phone-number:hover,
@@ -172,6 +174,26 @@ img {
 /* ---END-HEADER--- */
 
 /* ---HERO--- */
+.hero-center-side {
+    display: flex;
+    background-color: #2f303a;
+    height: 600px;
+    align-items: center;
+}
+
+.hero-center-side .header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 3.75;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+
+
 .modal-btn {
     font-weight: 700;
     font-size: 16px;
@@ -190,6 +212,13 @@ img {
     cursor: pointer;
     padding: 10px 41px;
 }
+
+.modal-btn:hover .modal-btn:focus {
+    background-color: var(--main-color);
+    color: #FFFFFF;
+}
+
+
 
 .header {
     font-weight: 900;
