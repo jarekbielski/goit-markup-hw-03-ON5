@@ -45,6 +45,10 @@ img {
     padding-bottom: 94px;
 }
 
+.section-section {
+    padding-top: 94px;
+}
+
 /* ---COMPONENTS--- */
 .main-header {
     font-weight: 700;
@@ -253,20 +257,23 @@ img {
 
 .discription-list {
     display: flex;
+
 }
 
 .dispription-list-item:not(:last-child) {
     margin-right: 30px;
+    margin: auto;
 }
 
 
 .discription {
-  
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
+    width: 300px;
 }
 
 .portfolio-discription-title {
@@ -287,10 +294,14 @@ img {
 
 
 /*---END-DISCRIPTION--- */
-
+ 
 
 /*---ABOUT--- */
-.about section {
+.about.container {
+    display: flex;
+}
+
+.about.about-img {
     display: flex;
 }
 
