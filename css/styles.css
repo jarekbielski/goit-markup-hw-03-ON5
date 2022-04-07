@@ -294,15 +294,20 @@ img {
 
 
 /*---END-DISCRIPTION--- */
- 
+
 
 /*---ABOUT--- */
 .about.container {
     display: flex;
 }
 
-.about.about-img {
+.about-list {
     display: flex;
+}
+
+.about-img {
+    margin-right: 30px;
+    margin: auto;
 }
 
 /*---END-ABOUT--- */
