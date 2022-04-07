@@ -251,7 +251,17 @@ img {
     margin-bottom: 10px;
 }
 
+.discription-list {
+    display: flex;
+}
+
+.dispription-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
 .discription {
+  
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -280,11 +290,20 @@ img {
 
 
 /*---ABOUT--- */
+.about section {
+    display: flex;
+}
 
 /*---END-ABOUT--- */
 
 
 /*---TEAM--- */
+
+.team-list {
+    display: flex;
+}
+
+
 .team-list-name {
     font-weight: 500;
     font-size: 16px;
