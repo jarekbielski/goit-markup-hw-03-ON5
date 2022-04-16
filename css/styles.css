@@ -47,7 +47,8 @@ img {
 }
 
 .section-section {
-    padding-top: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* ---COMPONENTS--- */
@@ -94,6 +95,18 @@ img {
     letter-spacing: 0.03em;
     color: var(--main-color);
     margin-right: 93px;
+    padding: 24px;
+}
+
+.navigation_logo_footer {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.938;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    margin-left: 215px;
     padding: 24px;
 }
 
@@ -351,6 +364,14 @@ img {
 
 
 /*---FOOTER--- */
+.footer {
+    background-color: #2F303A;
+}
+
+.footer .cotainer {
+    display: flex;
+}
+
 .adress-street {
     font-weight: 400;
     font-size: 14px;
@@ -375,6 +396,9 @@ img {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.contact-list {
+    padding: 9px;
+}
 /*---END-FOOTER--- */
 
 
