@@ -40,6 +40,7 @@ img {
     margin: 0 auto;
 }
 
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -314,9 +315,13 @@ img {
 
 
 /*---TEAM--- */
+.team {
+    background-color: #F5F4FA;
+}
 
 .team-list {
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -327,6 +332,11 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+}
+
+
+.team-list-img {
+    margin-bottom: 30px;
 }
 
 .team-list-job {
