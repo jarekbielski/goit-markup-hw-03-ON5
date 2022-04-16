@@ -34,7 +34,7 @@ img {
 }
 
 .container {
-    width: 1600px;
+    width: 1300px;
     padding: 0 15px;
     align-items: center;
     margin: 0 auto;
@@ -298,18 +298,17 @@ img {
 
 
 /*---ABOUT--- */
-.about.container {
-    display: flex;
-}
+
 
 .about-list {
     display: flex;
+    justify-content: space-between;
 }
 
 .about-img {
     margin-right: 30px;
-    margin: auto;
 }
+
 
 /*---END-ABOUT--- */
 
