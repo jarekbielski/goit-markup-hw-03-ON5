@@ -530,7 +530,7 @@ img {
     color: #757575;
 }
 
-.adress {
+.portfolio-adress {
     font-weight: 500;
     font-size: 14px;
     line-height: 1;
@@ -541,18 +541,18 @@ img {
 
 }
 
-.adress:hover,
-.adress:focus {
+.portfolio-adress:hover,
+.portfolio-adress:focus {
     color: var(--main-color)
 }
 
-.header .adress {
+.header-portfolio .portfolio-adress {
     margin-left: auto;
     margin-right: 41px;
 
 }
 
-.adress-phone-number {
+.portfolio-adress-phone-number {
     font-weight: 500;
     font-size: 14px;
     line-height: 1;
@@ -561,9 +561,40 @@ img {
 
 }
 
-.adress-phone-number:hover,
-.adress-phone-number:focus {
+.portfolio-adress-phone-number:hover,
+.portfolio-adress-phone-number:focus {
     color: var(--main-color)
 }
 
 /* ---END-HEADER-PORTFOLIO--- */
+
+/* ---NAVIGATION-PORTFOLIO--- */
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-portfolio-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #F5F4FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    padding: 10px 41px;
+    background-color: var(--main-color)
+}
+
+.navigation-portfolio-link:hover .navigation-portfolio-link:focus {
+    color: #FFFFFF;
+}
+
+/* ---END-NAVIGATION-PORTFOLIO--- */
