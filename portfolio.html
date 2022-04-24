@@ -13,25 +13,31 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
     <title>goit-markup-hw-03>-ON5</title>
-  </head>
+    </head>
   <body>
-    <header class="header-portfolio">
+    <header class="header"> 
       <div class="container">
         <nav class="navigation">
           <!--Logo-header-->
           <a class="navigation_logo list" href="/index.html"><span class="accent">Web</span>Studio</a>
           <!--Navigation-->
-          <ul class="portfolio-navigation-list list">
-            <li class="portfolio-navigation-list-item"><a class="portfolio-navigation-list-link link" href="#">Agencja</a></li>
-            <li class="portfolio-navigation-list-item"><a class="portfolio-navigation-list-link-accent link" href="#">Portfolio</a></li>
-            <li class="portfolio-navigation-list-item"><a class="portfolio-navigation-list-link link" href="#">Kontakt</a></li>
+          <ul class="navigation_list">
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="#">Agencja</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="/portfolio.html">Portfolio</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="#">Kontakt</a>
+            </li>
           </ul>
         </nav>
         <!--Contact-header-->
-        <a class="portfolio-adress" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a>
-        <a class="portfolio-adress-phone-number" href="tel:+48111111111"
-          >+48 111 111 111</a>
+        <address class="adress" href="mailto:info@devstudio.com"
+          >info@devstudio.com</address>
+        <address class="adress-phone-number" href="tel:+48111111111"
+          >+48 111 111 111</address>
       </div>
     </header>
 
@@ -39,7 +45,7 @@
       <div class="container">
       <section class="menu">
         <!--Navigation-Portfolio-->
-        <ul class="navigation-portfolio">
+        <ul class="navigation-portfolio list">
           <li class="navigation-portfolio-item"><button class="navigation-portfolio-link-accent" type="button">Wszystkie</button></li>
           <li class="navigation-portfolio-item"><button class="navigation-portfolio-link" type="button">Strony</button></li>
           <li class="navigation-portfolio-item"><button class="navigation-portfolio-link" type="button">Aplikacje</button></li>
@@ -50,8 +56,8 @@
       </div>
 
       <section>
-        <!--What-We_Do-->type="button">
-        <ul class="what-we-do">
+        <!--What-We_Do-->
+        <ul class="what-we-do list">
           <li class="what-we-do-list">
             <img class="what-we-do-img"
               src="Images/portfolio/Laptop-strona-internetowa.jpg"
@@ -146,20 +152,22 @@
       </section>
     </main>
 
-    <footer>
-         <section class="logo">
+   <footer class="footer section-section link">
+      <section class="logo">
         <!--Logo-footer-->
-        <a class="navigation_logo" href="/index.html"><span class="accent">Web</span>Studio</a>
+        <a class="navigation_logo_footer" href="/index.html"><span class="accent-footer">Web</span>Studio</a>
       </section>
-      <section>
+      <section class="footer-address link">
+        <div class="container">
         <!--Address-->
-        <address class="contact">
-          <ul class="contact-list">
+        <address class="contact list">
+          <ul class="contact-list list">
             <li class="adress-street">m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li><a class="adress-email-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="adress-phone-number-footer" href="tel:+48111111111">+48 111 111 111</a></li>
+            <li><address class="adress-email-footer" href="mailto:info@devstudio.com">info@devstudio.com</address></li>
+            <li><address class="adress-phone-number-footer" href="tel:+48111111111">+48 111 111 111</address></li>
           </ul>
         </address>
+        </div>
       </section>
     </footer>
   </body>

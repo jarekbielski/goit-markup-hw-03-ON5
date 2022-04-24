@@ -400,23 +400,8 @@ img {
 
 
 /*---NAVIGATION-PORTFOLIO--- */
-.navigation-portfolio-link-accent {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
 
-.navigation-portfolio-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
+
 
 /*---END-NAVIGATION-PORTFOLIO--- */
 
@@ -468,80 +453,6 @@ img {
     color: #FFFFFF
 }
 
-.portfolio-navigation-list-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
-
-.portfolio-navigation-list-link:hover,
-.portfolio-navigation-list-link:focus {
-    color: var(--main-color)
-}
-
-.portfolio-navigation-list {
-    display: flex;
-    align-items: center;
-}
-
-.portfolio-navigation-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
-
-.portfolio-navigation-link-accent {
-    color: #2196F3;
-}
-
-.portfolio-adress,
-.portfolio-adress-phone-number {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
-
-.portfolio-adress {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1;
-    letter-spacing: 0.02em;
-    color: #757575;
-    align-items: center;
-    display: flex;
-
-}
-
-.portfolio-adress:hover,
-.portfolio-adress:focus {
-    color: var(--main-color)
-}
-
-.header-portfolio .portfolio-adress {
-    margin-left: auto;
-    margin-right: 41px;
-
-}
-
-.portfolio-adress-phone-number {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1;
-    letter-spacing: 0.02em;
-    color: #757575;
-
-}
-
-.portfolio-adress-phone-number:hover,
-.portfolio-adress-phone-number:focus {
-    color: var(--main-color)
-}
 
 /* ---END-HEADER-PORTFOLIO--- */
 
@@ -574,4 +485,29 @@ img {
     color: #FFFFFF;
 }
 
+.navigation-portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-portfolio {
+    margin-right: 30px;
+}
+
 /* ---END-NAVIGATION-PORTFOLIO--- */
+
+
+/* ---WHAT-WE_DO_PORTFOLIO--- */
+
+
+.what-we-do {
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-we-do-img {
+    margin-right: 30px;
+}
+
+
+/* ---END-WHAT-WE_DO_PORTFOLIO--- */
