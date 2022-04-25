@@ -47,8 +47,12 @@ img {
 }
 
 .section-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+
+    padding-bottom: 56px;
+}
+
+.section-section-section {
+    padding-top: 94px;
 }
 
 /* ---COMPONENTS--- */
@@ -399,11 +403,6 @@ img {
 /*---END-FOOTER--- */
 
 
-/*---NAVIGATION-PORTFOLIO--- */
-
-
-
-/*---END-NAVIGATION-PORTFOLIO--- */
 
 /* ---HEADER-PORTFOLIO--- */
 .header-portfolio .container {
@@ -416,11 +415,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.portfolio-navigation ul {
-    display: flex;
-    align-items: center;
 }
 
 .navigation_logo {
@@ -439,12 +433,6 @@ img {
 
 
 
-.portfolio-navigation-list-item:not(:last-child) {
-    margin-right: 46px;
-    padding: 32px;
-}
-
-
 .accent {
     color: #212121
 }
@@ -457,9 +445,13 @@ img {
 /* ---END-HEADER-PORTFOLIO--- */
 
 /* ---NAVIGATION-PORTFOLIO--- */
-.menu {
+.navigation-portfolio {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.navigation-portfolio:hover .navigation-portfolio:focus {
+    color: var(--main-color);
 }
 
 .navigation-portfolio-link {
@@ -471,27 +463,35 @@ img {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background: #F5F4FA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #212121;
     border-radius: 4px;
     border: 0;
     cursor: pointer;
     padding: 10px 41px;
-    background-color: var(--main-color)
+    background-color: #F5F4FA
 }
 
-.navigation-portfolio-link:hover .navigation-portfolio-link:focus {
-    color: #FFFFFF;
-}
 
-.navigation-portfolio {
-    display: flex;
-    justify-content: space-between;
-}
 
 .navigation-portfolio {
     margin-right: 30px;
+}
+
+.navigation-portfolio-link-accent {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #212121;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    padding: 10px 41px;
+    background-color: #F5F4FA
 }
 
 /* ---END-NAVIGATION-PORTFOLIO--- */
@@ -501,13 +501,21 @@ img {
 
 
 .what-we-do {
-    display: flex;
+    display: ;
     justify-content: space-between;
+
 }
 
-.what-we-do-img {
+
+.what-we-do-list {
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
     margin-right: 30px;
 }
-
 
 /* ---END-WHAT-WE_DO_PORTFOLIO--- */
