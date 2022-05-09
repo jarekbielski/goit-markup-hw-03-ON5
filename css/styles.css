@@ -77,6 +77,7 @@ img {
     display: flex;
     align-items: center;
     margin: auto;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .navigation {
@@ -521,6 +522,31 @@ img {
     margin-top: 30px;
     padding: 0;
     flex-basis: calc(100% / 3 - 30px);
+}
+
+.portfolio-discription-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    width: 322px;
+    height: 36px;
+    left: 239px;
+    top: 576px;
+
+}
+
+.portfolio-discription {
+width: 322px;
+height: 30px;
+left: 239px;
+top: 616px;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 /* ---END-WHAT-WE_DO_PORTFOLIO--- */
